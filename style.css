@@ -9,3 +9,12 @@ body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
 }
+
+.background:hover {
+    transform: scale(1.05);
+}
+
+.background {
+    transition: transform ease-out 5s;
+    transform: scale(1);
+}
