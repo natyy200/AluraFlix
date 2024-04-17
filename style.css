@@ -18,3 +18,11 @@ body {
     transition: transform ease-out 5s;
     transform: scale(1);
 }
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
